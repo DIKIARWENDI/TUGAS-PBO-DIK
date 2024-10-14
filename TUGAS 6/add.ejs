@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Mahasiswa</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tambah Mahasiswa</h1>
+        <form action="/add" method="POST">
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Nomor Telepon:</label>
+            <input type="text" name="no_telp" required>
+            <button type="submit" class="btn">Simpan</button>
+        </form>
+    </div>
+</body>
+</html>
