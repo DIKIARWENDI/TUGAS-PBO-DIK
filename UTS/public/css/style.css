@@ -1,0 +1,30 @@
+.dashboard-summary, .dashboard-navigation {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dashboard-summary h2, .dashboard-navigation h2 {
+    color: #333;
+}
+
+.dashboard-summary ul, .dashboard-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-summary ul li, .dashboard-navigation ul li {
+    margin: 10px 0;
+}
+
+.dashboard-navigation ul li a {
+    color: #5cb85c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-navigation ul li a:hover {
+    color: #4cae4c;
+}
